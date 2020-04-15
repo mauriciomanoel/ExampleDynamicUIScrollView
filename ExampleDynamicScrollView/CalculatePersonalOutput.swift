@@ -9,10 +9,12 @@
 import Foundation
 
 struct CalculatePersonalOutput {
+    let calculateId: Int
     let loanAmount: Int
     let loanPayment, interestOverTerm, totalPaymentAmount: Double
     
-    init(loanAmount: Int = 0, loanPayment: Double = 0.0, interestOverTerm: Double = 0.0, totalPaymentAmount: Double = 0.0) {
+    init(calculateId: Int = 0, loanAmount: Int = 0, loanPayment: Double = 0.0, interestOverTerm: Double = 0.0, totalPaymentAmount: Double = 0.0) {
+        self.calculateId = calculateId
         self.loanAmount = loanAmount
         self.loanPayment = loanPayment
         self.interestOverTerm = interestOverTerm

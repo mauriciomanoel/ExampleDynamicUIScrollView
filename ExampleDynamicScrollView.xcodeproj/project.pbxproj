@@ -10,7 +10,8 @@
 		522DEBA22445D5EE00819BDC /* CalculateOnClickEventActionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DEBA12445D5EE00819BDC /* CalculateOnClickEventActionEnum.swift */; };
 		522DEBA42445D64F00819BDC /* CalculatePersonalOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DEBA32445D64F00819BDC /* CalculatePersonalOutput.swift */; };
 		522DEBA62445D65F00819BDC /* CalculateFormatUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522DEBA52445D65F00819BDC /* CalculateFormatUtils.swift */; };
-		527E6ADD24460C4700D26977 /* exemple.png in Resources */ = {isa = PBXBuildFile; fileRef = 527E6ADC24460C4700D26977 /* exemple.png */; };
+		5243CD3A244761E40064842A /* CalculateCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5243CD39244761E30064842A /* CalculateCardView.swift */; };
+		52525A7724470FCA002B3981 /* CalculateEventActionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52525A7624470FCA002B3981 /* CalculateEventActionDelegate.swift */; };
 		527E6AE024463D8900D26977 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527E6ADE24463D8900D26977 /* CustomTableViewCell.swift */; };
 		527E6AE124463D8900D26977 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 527E6ADF24463D8900D26977 /* CustomTableViewCell.xib */; };
 		52A8AC332444D5E00014C29E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8AC322444D5E00014C29E /* AppDelegate.swift */; };
@@ -18,8 +19,8 @@
 		52A8AC3A2444D5E00014C29E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC382444D5E00014C29E /* Main.storyboard */; };
 		52A8AC3C2444D5E50014C29E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC3B2444D5E50014C29E /* Assets.xcassets */; };
 		52A8AC3F2444D5E50014C29E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC3D2444D5E50014C29E /* LaunchScreen.storyboard */; };
-		52A8AC482444D6770014C29E /* CalculatePersonalResume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8AC462444D6770014C29E /* CalculatePersonalResume.swift */; };
-		52A8AC492444D6770014C29E /* CalculatePersonalResume.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC472444D6770014C29E /* CalculatePersonalResume.xib */; };
+		52A8AC482444D6770014C29E /* CalculatePersonalResumeCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A8AC462444D6770014C29E /* CalculatePersonalResumeCompare.swift */; };
+		52A8AC492444D6770014C29E /* CalculatePersonalResumeCompare.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC472444D6770014C29E /* CalculatePersonalResumeCompare.xib */; };
 		52A8AC572444D6900014C29E /* ic_calculate_share.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC4B2444D6900014C29E /* ic_calculate_share.png */; };
 		52A8AC582444D6900014C29E /* ic_calculate_notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC4C2444D6900014C29E /* ic_calculate_notification.png */; };
 		52A8AC592444D6900014C29E /* ic_calculate_print.png in Resources */ = {isa = PBXBuildFile; fileRef = 52A8AC4D2444D6900014C29E /* ic_calculate_print.png */; };
@@ -38,7 +39,8 @@
 		522DEBA12445D5EE00819BDC /* CalculateOnClickEventActionEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateOnClickEventActionEnum.swift; sourceTree = "<group>"; };
 		522DEBA32445D64F00819BDC /* CalculatePersonalOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePersonalOutput.swift; sourceTree = "<group>"; };
 		522DEBA52445D65F00819BDC /* CalculateFormatUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateFormatUtils.swift; sourceTree = "<group>"; };
-		527E6ADC24460C4700D26977 /* exemple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exemple.png; sourceTree = "<group>"; };
+		5243CD39244761E30064842A /* CalculateCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateCardView.swift; sourceTree = "<group>"; };
+		52525A7624470FCA002B3981 /* CalculateEventActionDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateEventActionDelegate.swift; sourceTree = "<group>"; };
 		527E6ADE24463D8900D26977 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		527E6ADF24463D8900D26977 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		52A8AC2F2444D5E00014C29E /* ExampleDynamicScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDynamicScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,8 +50,8 @@
 		52A8AC3B2444D5E50014C29E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52A8AC3E2444D5E50014C29E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52A8AC402444D5E50014C29E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52A8AC462444D6770014C29E /* CalculatePersonalResume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePersonalResume.swift; sourceTree = "<group>"; };
-		52A8AC472444D6770014C29E /* CalculatePersonalResume.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatePersonalResume.xib; sourceTree = "<group>"; };
+		52A8AC462444D6770014C29E /* CalculatePersonalResumeCompare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatePersonalResumeCompare.swift; sourceTree = "<group>"; };
+		52A8AC472444D6770014C29E /* CalculatePersonalResumeCompare.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalculatePersonalResumeCompare.xib; sourceTree = "<group>"; };
 		52A8AC4B2444D6900014C29E /* ic_calculate_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_calculate_share.png; sourceTree = "<group>"; };
 		52A8AC4C2444D6900014C29E /* ic_calculate_notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_calculate_notification.png; sourceTree = "<group>"; };
 		52A8AC4D2444D6900014C29E /* ic_calculate_print.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_calculate_print.png; sourceTree = "<group>"; };
@@ -75,6 +77,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52525A75244701D7002B3981 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				52525A7624470FCA002B3981 /* CalculateEventActionDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
 		52A8AC262444D5E00014C29E = {
 			isa = PBXGroup;
 			children = (
@@ -94,14 +104,15 @@
 		52A8AC312444D5E00014C29E /* ExampleDynamicScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				52525A75244701D7002B3981 /* Delegate */,
 				52A8AC4A2444D6900014C29E /* CalculateAssets */,
 				52A8AC322444D5E00014C29E /* AppDelegate.swift */,
-				527E6ADC24460C4700D26977 /* exemple.png */,
 				52A8AC362444D5E00014C29E /* ViewController.swift */,
-				52A8AC462444D6770014C29E /* CalculatePersonalResume.swift */,
-				52A8AC472444D6770014C29E /* CalculatePersonalResume.xib */,
+				52A8AC462444D6770014C29E /* CalculatePersonalResumeCompare.swift */,
+				52A8AC472444D6770014C29E /* CalculatePersonalResumeCompare.xib */,
 				52A8AC382444D5E00014C29E /* Main.storyboard */,
 				522DEBA12445D5EE00819BDC /* CalculateOnClickEventActionEnum.swift */,
+				5243CD39244761E30064842A /* CalculateCardView.swift */,
 				522DEBA32445D64F00819BDC /* CalculatePersonalOutput.swift */,
 				522DEBA52445D65F00819BDC /* CalculateFormatUtils.swift */,
 				52A8AC3B2444D5E50014C29E /* Assets.xcassets */,
@@ -191,14 +202,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				52A8AC3F2444D5E50014C29E /* LaunchScreen.storyboard in Resources */,
-				527E6ADD24460C4700D26977 /* exemple.png in Resources */,
 				52A8AC582444D6900014C29E /* ic_calculate_notification.png in Resources */,
 				52A8AC3C2444D5E50014C29E /* Assets.xcassets in Resources */,
 				52A8AC612444D6900014C29E /* ic_calculate_fullpan.png in Resources */,
 				52A8AC5A2444D6900014C29E /* ic_calculate_graph.png in Resources */,
 				52A8AC602444D6900014C29E /* ic_calculate_type_loan_personal.png in Resources */,
 				52A8AC3A2444D5E00014C29E /* Main.storyboard in Resources */,
-				52A8AC492444D6770014C29E /* CalculatePersonalResume.xib in Resources */,
+				52A8AC492444D6770014C29E /* CalculatePersonalResumeCompare.xib in Resources */,
 				52A8AC622444D6900014C29E /* ic_calculate_arrow_down.png in Resources */,
 				52A8AC592444D6900014C29E /* ic_calculate_print.png in Resources */,
 				52A8AC5E2444D6900014C29E /* ic_calculate_save.png in Resources */,
@@ -219,12 +229,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				522DEBA22445D5EE00819BDC /* CalculateOnClickEventActionEnum.swift in Sources */,
+				5243CD3A244761E40064842A /* CalculateCardView.swift in Sources */,
 				522DEBA62445D65F00819BDC /* CalculateFormatUtils.swift in Sources */,
 				52A8AC372444D5E00014C29E /* ViewController.swift in Sources */,
+				52525A7724470FCA002B3981 /* CalculateEventActionDelegate.swift in Sources */,
 				527E6AE024463D8900D26977 /* CustomTableViewCell.swift in Sources */,
 				522DEBA42445D64F00819BDC /* CalculatePersonalOutput.swift in Sources */,
 				52A8AC332444D5E00014C29E /* AppDelegate.swift in Sources */,
-				52A8AC482444D6770014C29E /* CalculatePersonalResume.swift in Sources */,
+				52A8AC482444D6770014C29E /* CalculatePersonalResumeCompare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
